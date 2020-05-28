@@ -1,4 +1,4 @@
-# Stock-Price-Scraper
+## Python Scraper
 Scraping stock data from a Yahoo Finance
 
 Install the requirements:
