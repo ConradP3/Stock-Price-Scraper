@@ -100,7 +100,7 @@ if __name__ == '__main__':
     df["Open Price"] = pandas.DataFrame(data={"Open Price": OpenPrice})
     df['Close Price'] =  pandas.DataFrame(data={"Close Price": ClosePrice})
     df['PE Ratio'] = pandas.DataFrame(data = {'P/E Ratio': PERatio})
-    df['Market Cap'] = pandas.DataFrane(data={'Market Cap': MarketCap})
+    df['Market Cap'] = pandas.DataFrame(data={'Market Cap': MarketCap})
     df['Date'] = datetime.now()
 
     df.to_csv("PriceData.csv", index=False)
