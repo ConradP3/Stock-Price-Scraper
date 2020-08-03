@@ -1,5 +1,7 @@
 ## Python Scraper
 Scraping stock data from a Yahoo Finance
+- Open/Close Stocks Prices
+- 
 
 Install the requirements:
  ```bash
